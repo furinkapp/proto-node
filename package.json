@@ -5,7 +5,8 @@
 	"license": "MIT",
 	"scripts": {
 		"generate": "proto-loader-gen-types --longs=String --enums=String --defaults --oneofs --grpcLib=@grpc/grpc-js --outDir=src/ proto/*.proto && tsc",
-		"prepare": "yarn husky install && yarn generate"
+		"prepare": "yarn husky install && yarn generate",
+		"postinstall": "yarn generate"
 	},
 	"dependencies": {
 		"@grpc/grpc-js": "^1.4.4",
