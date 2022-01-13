@@ -4,3 +4,7 @@ node_modules
 dist
 # don't lint javascript files as they aren't included in tsconfig.json
 *.js
+
+# these are generated files so will always error
+src
+!src/index.ts
