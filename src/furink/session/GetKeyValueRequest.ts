@@ -1,10 +1,9 @@
 // Original file: proto/session.proto
 
-
 export interface GetKeyValueRequest {
-  'key'?: (string);
+	key?: string;
 }
 
 export interface GetKeyValueRequest__Output {
-  'key': (string);
+	key: string;
 }
