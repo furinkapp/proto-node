@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn generate && git add src
+yarn generate && yarn prettier src --write
 npx lint-staged
