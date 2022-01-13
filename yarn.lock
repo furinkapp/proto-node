@@ -264,7 +264,6 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.9.0
     "@typescript-eslint/parser": ^5.9.0
     eslint: ^8.6.0
-    furink-proto: "https://github.com/furinkapp/proto-node"
     husky: ^7.0.4
     lint-staged: ">=10"
     prettier: ^2.5.1
@@ -1439,16 +1438,6 @@ __metadata:
   version: 1.0.1
   resolution: "functional-red-black-tree@npm:1.0.1"
   checksum: ca6c170f37640e2d94297da8bb4bf27a1d12bea3e00e6a3e007fd7aa32e37e000f5772acf941b4e4f3cf1c95c3752033d0c509af157ad8f526e7f00723b9eb9f
-  languageName: node
-  linkType: hard
-
-"furink-proto@https://github.com/furinkapp/proto-node":
-  version: 1.0.0
-  resolution: "furink-proto@https://github.com/furinkapp/proto-node.git#commit=a0c6ba9c303ba0fc773fa4be85146faa87e7c9d2"
-  dependencies:
-    "@grpc/grpc-js": ^1.4.4
-    "@grpc/proto-loader": ^0.6.7
-  checksum: 44da011f8893bff08280345032d685ffa00da6f391e961d7478b4175a9903135a1568825fd13522e71ea1a79e4269da61aecf35768fae57ace5122c22949a69d
   languageName: node
   linkType: hard
 
